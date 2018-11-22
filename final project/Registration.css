@@ -1,0 +1,167 @@
+﻿.registration-form {
+	width: 700px;
+	height: 80%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 20px;
+	box-shadow: 0pt 1pt 1pt 0pt #000;
+	background-color: white;
+	display: block;
+	margin: auto;
+}
+
+#lblTitle {
+	width: 100%;
+	height: 20%;
+	border-radius: 20px, 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	text-align: center;
+	background-color: #343A40;
+	line-height: 150px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#txtEmail, #txtPassword, #txtPasswordValidator {
+	width: 85%;
+	height: 40px;
+	border-radius: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	border-collapse: collapse;
+	box-shadow: 0, 0, 0, 0;
+	outline-width: 0;
+}
+
+#txtFirstName {
+	width: 40%;
+	height: 40px;
+	margin-left: 8%;
+	border-radius: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	border-collapse: collapse;
+	box-shadow: 0, 0, 0, 0;
+	outline-width: 0;
+	float: left;
+	justify-content: center;
+}
+
+#txtLastName {
+	width: 40%;
+	height: 40px;
+	margin-right: 8%;
+	border-radius: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	border-collapse: collapse;
+	box-shadow: 0, 0, 0, 0;
+	outline-width: 0;
+	float: right;
+	justify-content: center;
+}
+
+input:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+.registration-form-name {
+	text-decoration-line: none;
+	margin-top: 2%;
+	display: inline-block;
+}
+
+.registration-form-email {
+	margin-bottom: 2%;
+	text-decoration-line: none;
+}
+
+.registration-form-password {
+	margin-bottom: 2%;
+	text-decoration-line: none;
+}
+
+.registration-form-validation {
+	text-decoration-line: none;
+	margin-bottom: 3%;
+}
+
+.registration-form-register {
+	outline-width: 0;
+	margin-bottom: 3%;
+	font-size: 24px;
+	text-align: center;
+	justify-content: center;
+}
+
+.registration-form-login {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 5%;
+	justify-content: center;
+	outline-width: 0;
+}
+
+span {
+	font-size: 16px;
+}
+
+#form1 {
+	padding: 5%;
+}
+
+input[type=text]:focus {
+	box-shadow: 0 0 3pt 2pt #343A40;
+}
+
+input[type=password]:focus {
+	box-shadow: 0 0 3pt 2pt #343A40;
+}
+
+#btnRegister {
+	border-radius: 20px;
+	width: 70%;
+	height: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	background-color: #343A40;
+	color: #fff;
+	outline-width: 0;
+}
+
+	#btnRegister:hover {
+		cursor: pointer;
+		background-color: forestgreen;
+		outline-width: 0;
+	}
+
+	#lblFeedback{
+		font-size: 40px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+.foot {
+	width: 100%;
+	height: 5%;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}

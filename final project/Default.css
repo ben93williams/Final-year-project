@@ -1,0 +1,20 @@
+﻿html, body {
+	background-color: lightgray;
+	background-image: url("Images/background_2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	height: 100%;
+
+}
+
+.header{
+	overflow: hidden;
+
+	height: 55px;
+}
+
+.wrap {
+	width: 100%;
+}

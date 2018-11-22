@@ -1,0 +1,2 @@
+F:\year 3\final project\obj\x86\Debug\final project.csprojResolveAssemblyReference.cache
+F:\year 3\final project\obj\x86\Debug\final project.csproj.CoreCompileInputs.cache

@@ -1,0 +1,161 @@
+﻿.account {
+    width: 90vw;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+	margin-top: 30px;
+	margin-left: 5%;
+	font-size: 32px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    width: 100%;
+    height: 10%;
+    line-height: 80px;
+    border-radius: 0px, 10px;
+    background-color: #343A40;
+    color: #fff;
+    text-align: center;
+}
+
+#lblTitle{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-form{
+    margin: auto;
+    border-radius: 10px;
+    background-color: lightgrey;
+    width: 1050px;
+    height: 650px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.info-form-name{
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15%;
+    margin-bottom: 100px;
+}
+
+.info-form-email{
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px; 
+}
+
+.info-form-count{
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.info-form-change{
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.reset-form{
+    margin: auto;
+    border-radius: 10px;
+    background-color: lightgrey;
+    width: 1050px;
+    height: 650px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.reset-form-old{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+	margin-top: 75px;
+}
+
+#txtOldPass{
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+   margin-top: 30px;
+}
+
+.reset-form-new{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#txtNewPass{
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+   
+
+}
+
+.reset-form-confirm{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+#txtConfirmPass{
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.reset-form-save{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+#btnSave{
+    width: 450px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #343A40;
+    color: #fff;
+   
+}
+
+.foot{
+    width: 100%;
+	height: 5%;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #fff;
+}
